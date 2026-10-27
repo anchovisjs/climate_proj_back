@@ -12,7 +12,6 @@ class NetatmoStation(models.Model):
         db_table = 'netatmo_stations'
         managed = False
 
-
 class StationData(models.Model):
     fid = models.CharField(primary_key=True, max_length=64)
 
